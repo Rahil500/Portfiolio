@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/index.html#hero -->
+<html lang="en" data-theme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Social Meta Tags -->
+  <title>Mohammed Rahil | Software Engineer &amp; Data Science Specialist</title>
+  <meta name="description" content="Pixel Art Portfolio of Mohammed Rahil, a passionate Software Engineer and Data Science graduate specializing in Java, Python, Web Development, and Database Systems.">
+  <meta name="author" content="Mohammed Rahil">
+  <meta name="keywords" content="Mohammed Rahil, Software Engineer, Java Developer, Python, Data Science, Portfolio, Full Stack, Pixel Art">
+  <meta property="og:title" content="Mohammed Rahil | Software Engineer Portfolio">
+  <meta property="og:description" content="Explore projects, skills, education, and experience of Mohammed Rahil.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon / Fonts (Including Retro 8-bit & Pixel Art Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Mohammed Rahil _ Software Engineer &amp; Data Science Specialist_files/css2" rel="stylesheet">
+  
+  <!-- Custom Stylesheet with CSS Media Query Theme Detection & Pixel Art Styles -->
+  <link rel="stylesheet" href="./Mohammed Rahil _ Software Engineer &amp; Data Science Specialist_files/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SIDEBAR BACKDROP (For Mobile Off-Canvas Drawer)
+       ========================================================================== -->
+  <div class="sidebar-backdrop" id="sidebarBackdrop" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       VERTICAL NAVIGATION BAR (LEFT SIDE OF SCREEN)
+       Accessible, pixel art aesthetic, fixed on desktop, off-canvas on mobile.
+       Links: Home, About Me, Skills, Timeline, Projects, Testimonials, Chat, Contact
+       ========================================================================== -->
+  <aside class="pixel-sidebar-nav" id="sidebarNav" aria-label="Main Navigation">
+    <!-- Sidebar Top Header / Branding -->
+    <div class="sidebar-header">
+      <a href="http://127.0.0.1:5500/index.html#hero" class="sidebar-logo pixel-logo" aria-label="Mohammed Rahil Homepage">
+        <span class="logo-code">&lt;</span>RAHIL<span class="logo-accent">.DEV</span><span class="logo-code">/&gt;</span>
+      </a>
+      <button class="sidebar-close-btn pixel-btn" id="sidebarCloseBtn" type="button" aria-label="Close Navigation Menu">
+        ✕
+      </button>
+    </div>
+
+    <!-- Character Status Pill -->
+    <div class="sidebar-status-pill">
+      <span class="pixel-blink-dot"></span>
+      <span class="status-pill-text">PLAYER 1 // ONLINE</span>
+    </div>
+
+    <!-- Vertical Navigation Links List -->
+    <nav class="sidebar-menu-nav">
+      <ul class="sidebar-nav-list" role="menu">
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#hero" class="sidebar-nav-link active" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">🏠</span>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#about" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">👤</span>
+            <span class="nav-text">About Me</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#skills" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">⚡</span>
+            <span class="nav-text">Skills</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#timeline" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">⏳</span>
+            <span class="nav-text">Timeline</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#projects" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">⚔️</span>
+            <span class="nav-text">Projects</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#testimonials" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">⭐</span>
+            <span class="nav-text">Testimonials</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#chat" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">💬</span>
+            <span class="nav-text">Chat</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item" role="none">
+          <a href="http://127.0.0.1:5500/index.html#contact" class="sidebar-nav-link" role="menuitem">
+            <span class="nav-cursor-icon">▶</span>
+            <span class="nav-pixel-icon">📬</span>
+            <span class="nav-text">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Sidebar Bottom Action Tray: Night Mode Toggle & Quick Socials -->
+    <div class="sidebar-footer">
+      <!-- Night Mode Toggle (CSS Media Query Default + Manual Override) -->
+      <button id="theme-toggle" class="theme-toggle-btn pixel-theme-toggle sidebar-theme-btn" type="button" aria-label="Current: DARK MODE. Click to toggle." title="Current: DARK MODE. Click to toggle.">
+        <!-- Sun Icon (Active in dark mode to switch to light mode) -->
+        <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2"></path>
+          <path d="M12 20v2"></path>
+          <path d="m4.93 4.93 1.41 1.41"></path>
+          <path d="m17.66 17.66 1.41 1.41"></path>
+          <path d="M2 12h2"></path>
+          <path d="M20 12h2"></path>
+          <path d="m6.34 17.66-1.41 1.41"></path>
+          <path d="m19.07 4.93-1.41 1.41"></path>
+        </svg>
+        <!-- Moon Icon (Active in light mode to switch to dark mode) -->
+        <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+        </svg>
+        <span class="theme-text" id="theme-status-text">NIGHT</span>
+      </button>
+
+      <!-- Quick Pixel Socials -->
+      <div class="sidebar-socials">
+        <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="sidebar-mini-social" aria-label="GitHub Profile" title="GitHub">GIT</a>
+        <a href="https://linkedin.com/in/Mohammed-Rahil" target="_blank" rel="noopener noreferrer" class="sidebar-mini-social" aria-label="LinkedIn Profile" title="LinkedIn">IN</a>
+        <a href="mailto:05mohammerahil@gmail.com" class="sidebar-mini-social" aria-label="Email Address" title="Email">MAIL</a>
+      </div>
+
+      <div class="sidebar-version-tag">VER: 2.0-ARCADE</div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       MOBILE TOP BAR (Visible on screens < 1024px to open vertical sidebar)
+       ========================================================================== -->
+  <header class="mobile-top-bar" id="mobileTopBar">
+    <button id="sidebarToggleBtn" class="mobile-menu-trigger pixel-btn" type="button" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="sidebarNav">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="menu-label">MENU</span>
+    </button>
+
+    <a href="http://127.0.0.1:5500/index.html#hero" class="mobile-logo pixel-logo" aria-label="Mohammed Rahil Homepage">
+      <span class="logo-code">&lt;</span>RAHIL<span class="logo-accent">.DEV</span><span class="logo-code">/&gt;</span>
+    </a>
+
+    <!-- Mobile Theme Toggle Shortcut -->
+    <button id="mobileThemeToggle" class="mobile-theme-btn pixel-theme-toggle" type="button" aria-label="Current: DARK MODE. Click to toggle." title="Current: DARK MODE. Click to toggle.">
+      <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path></svg>
+      <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg>
+    </button>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT CONTAINER
+       Houses all primary semantic portfolio sections
+       ========================================================================== -->
+  <main id="main-content">
+
+    <!-- ==========================================================================
+         HERO SECTION PLACEHOLDER (PIXEL ART STYLE)
+         Uses background.jpeg, pixel art aesthetics, welcome title, tagline, and HUD
+         ========================================================================== -->
+    <section class="hero-section pixel-hero" id="hero" aria-label="Introduction">
+      <!-- Pixel Scanline & Grid Background Overlay -->
+      <div class="pixel-scanlines" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <!-- Left: Pixel Dialogue Box & Introduction -->
+        <div class="hero-content pixel-dialogue-box">
+          <!-- Pixel Status Badge -->
+          <div class="pixel-status-badge">
+            <span class="pixel-blink-dot"></span>
+            <span class="pixel-badge-text">SYSTEM ONLINE // LVL 2026</span>
+          </div>
+
+          <!-- Section Welcome Title & Tagline -->
+          <h1 class="hero-title pixel-title">
+            <span class="pixel-greeting">WELCOME TO MY REALM!</span>
+            <span class="pixel-name-highlight">I'M MOHAMMED RAHIL</span>
+            <span class="blinking-cursor">_</span>
+          </h1>
+
+          <p class="hero-subtitle pixel-subtitle">
+            &gt; Software Engineer &amp; Data Science Specialist
+          </p>
+
+          <p class="hero-description pixel-desc">
+            Crafting high-performance systems and pixel-perfect digital experiences. Specializing in Java, Python, SQL, and modern responsive web development.
+          </p>
+
+          <!-- Pixel Action Buttons -->
+          <div class="hero-cta-group pixel-cta-group">
+            <a href="http://127.0.0.1:5500/index.html#projects" class="pixel-btn pixel-btn-primary">
+              <span class="btn-pixel-icon">⚔️</span>
+              <span>START QUEST</span>
+            </a>
+            <a href="#intro-video-card" class="pixel-btn pixel-btn-video" id="heroWatchVideoBtn">
+              <span class="btn-pixel-icon">▶</span>
+              <span>WATCH INTRO</span>
+            </a>
+            <a href="http://127.0.0.1:5500/Rahil_resume.pdf" class="pixel-btn pixel-btn-secondary" target="_blank" download="">
+              <span class="btn-pixel-icon">📜</span>
+              <span>RESUME [PDF]</span>
+            </a>
+            <a href="http://127.0.0.1:5500/index.html#contact" class="pixel-btn pixel-btn-outline">
+              <span class="btn-pixel-icon">💬</span>
+              <span>CONTACT NPC</span>
+            </a>
+          </div>
+
+          <!-- Pixel Social Shortcuts -->
+          <div class="hero-social-links pixel-social-links">
+            <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="pixel-social-icon" aria-label="GitHub Profile" title="GitHub: Rahil500">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+              <span class="pixel-tag-text">GIT</span>
+            </a>
+            <a href="https://linkedin.com/in/Mohammed-Rahil" target="_blank" rel="noopener noreferrer" class="pixel-social-icon" aria-label="LinkedIn Profile" title="LinkedIn: Mohammed-Rahil">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+              <span class="pixel-tag-text">IN</span>
+            </a>
+            <a href="mailto:05mohammerahil@gmail.com" class="pixel-social-icon" aria-label="Email Address" title="Email: 05mohammerahil@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span class="pixel-tag-text">MAIL</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Pixel Character HUD & Profile Picture -->
+        <div class="hero-visual">
+          <div class="pixel-character-card">
+            <!-- Retro Window Header -->
+            <div class="pixel-window-bar">
+              <span class="pixel-window-title">PLAYER_PROFILE.EXE</span>
+              <div class="pixel-window-buttons">
+                <span class="win-btn win-min">_</span>
+                <span class="win-btn win-max">□</span>
+                <span class="win-btn win-close">×</span>
+              </div>
+            </div>
+
+            <!-- Portrait Frame -->
+            <div class="pixel-portrait-frame">
+              <img src="./Mohammed Rahil _ Software Engineer &amp; Data Science Specialist_files/profile.jpg" alt="Mohammed Rahil - Software Engineer" class="pixel-avatar-img">
+              <div class="pixel-corner-notch tl"></div>
+              <div class="pixel-corner-notch tr"></div>
+              <div class="pixel-corner-notch bl"></div>
+              <div class="pixel-corner-notch br"></div>
+              <div class="pixel-level-tag">LVL 24</div>
+            </div>
+
+            <!-- RPG Stats HUD Panel -->
+            <div class="pixel-stats-hud">
+              <div class="hud-header">
+                <span class="char-name">MOHAMMED RAHIL</span>
+                <span class="char-class">CLASS: ARCHITECT</span>
+              </div>
+
+              <!-- HP Bar (Health / Uptime) -->
+              <div class="hud-stat-row">
+                <div class="stat-info">
+                  <span class="stat-name">HP [ENERGY]</span>
+                  <span class="stat-value">100/100</span>
+                </div>
+                <div class="pixel-bar-track">
+                  <div class="pixel-bar-fill bar-hp" style="width: 100%;"></div>
+                </div>
+              </div>
+
+              <!-- MP Bar (Backend & Problem Solving) -->
+              <div class="hud-stat-row">
+                <div class="stat-info">
+                  <span class="stat-name">MP [JAVA / PY]</span>
+                  <span class="stat-value">98/100</span>
+                </div>
+                <div class="pixel-bar-track">
+                  <div class="pixel-bar-fill bar-mp" style="width: 98%;"></div>
+                </div>
+              </div>
+
+              <!-- EXP Bar (Data Science & Projects) -->
+              <div class="hud-stat-row">
+                <div class="stat-info">
+                  <span class="stat-name">EXP [PROJECTS]</span>
+                  <span class="stat-value">95%</span>
+                </div>
+                <div class="pixel-bar-track">
+                  <div class="pixel-bar-fill bar-exp" style="width: 95%;"></div>
+                </div>
+              </div>
+
+              <!-- Stat Badges -->
+              <div class="hud-badge-grid">
+                <span class="hud-pill">🎓 B.E. DATA SCI</span>
+                <span class="hud-pill">⚡ CGPA: 7.4</span>
+                <span class="hud-pill">☕ TAP ACADEMY</span>
+                <span class="hud-pill">🗄️ MYSQL EXPERT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT ME SECTION PLACEHOLDER
+         Clean, minimalistic design with pixel-art avatar, short bio, career
+         highlights, and personal interests
+         ========================================================================== -->
+    <section class="about-section pixel-section" id="about" aria-label="About Mohammed Rahil">
+      <div class="container">
+        <!-- Section Header -->
+        <header class="section-header">
+          <span class="section-tag">[ 01. INTRO // PROFILE ]</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Bridging engineering fundamentals, algorithmic precision, and scalable software design.</p>
+        </header>
+
+        <div class="about-main-layout">
+          <!-- Left Column: Pixel Avatar & Quick Spec Card -->
+          <aside class="about-avatar-column" aria-label="Profile Avatar and Quick Stats">
+            <div class="about-avatar-card pixel-box">
+              <div class="about-card-window-bar">
+                <span class="window-dot red"></span>
+                <span class="window-dot yellow"></span>
+                <span class="window-dot green"></span>
+                <span class="window-caption">AVATAR_SPRITE.PNG</span>
+              </div>
+              
+              <!-- Pixel Art Profile Avatar -->
+              <div class="about-avatar-frame">
+                <img src="./Mohammed Rahil _ Software Engineer &amp; Data Science Specialist_files/pixel_avatar.png" alt="Mohammed Rahil - Pixel Art Avatar" class="about-pixel-avatar" loading="lazy">
+                <span class="avatar-badge">LVL 24</span>
+              </div>
+
+              <!-- Character Spec Pill List -->
+              <div class="about-spec-list">
+                <div class="spec-row">
+                  <span class="spec-key">NAME:</span>
+                  <span class="spec-val">Mohammed Rahil</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">ROLE:</span>
+                  <span class="spec-val">Software Engineer</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">MAJOR:</span>
+                  <span class="spec-val">B.E. Data Science</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">CGPA:</span>
+                  <span class="spec-val highlight-gold">7.4 / 10.0</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">STATUS:</span>
+                  <span class="spec-val highlight-green">● OPEN TO WORK</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Right Column: Bio, Career Highlights, and Personal Interests -->
+          <div class="about-content-column">
+            <!-- Short Minimalist Bio Card -->
+            <article class="about-card-minimal bio-card">
+              <h3 class="about-block-title">
+                <span class="title-glyph">&gt;</span> Engineering Philosophy &amp; Bio
+              </h3>
+              <p class="bio-paragraph">
+                Hi, I'm <strong>Mohammed Rahil</strong>, a Software Engineer with a Bachelor of Engineering in Data Science from Adichunchanagiri Institute of Technology. I am driven by creating high-reliability backend systems, performant database architectures, and intuitive web interfaces.
+              </p>
+              <p class="bio-paragraph">
+                With comprehensive hands-on practice in <strong>Java</strong>, <strong>Python</strong>, <strong>MySQL</strong>, and modern <strong>Full-Stack Web Development</strong>, I focus on writing modular, self-documenting code built around core Object-Oriented and Data Structure principles.
+              </p>
+            </article>
+
+            <!-- Featured Video Introduction Card -->
+            <article class="about-card-minimal video-intro-card" id="intro-video-card" aria-label="Mohammed Rahil Video Introduction">
+              <div class="about-card-window-bar">
+                <div class="window-dots-group">
+                  <span class="window-dot red"></span>
+                  <span class="window-dot yellow"></span>
+                  <span class="window-dot green"></span>
+                </div>
+                <span class="window-caption">MEDIA_PLAYER // INTRO_VIDEO.MP4</span>
+                <span class="video-runtime-tag">03:38 HD</span>
+              </div>
+
+              <div class="video-intro-header">
+                <div class="video-title-wrap">
+                  <h3 class="about-block-title" style="margin-bottom: 0.35rem; border-bottom: none; padding-bottom: 0;">
+                    <span class="title-glyph">🎬</span> Video Introduction
+                  </h3>
+                  <p class="video-intro-lead">
+                    Watch my personal introduction, academic background, and engineering walkthrough.
+                  </p>
+                </div>
+                <div class="video-status-pill">
+                  <span class="pixel-blink-dot"></span>
+                  <span>1080P // AUDIO ON</span>
+                </div>
+              </div>
+
+              <!-- Retro Styled HTML5 Video Player Frame -->
+              <div class="pixel-video-frame">
+                <div class="video-screen-bezel">
+                  <video
+                    id="introVideo"
+                    class="pixel-video-element"
+                    controls
+                    preload="metadata"
+                    poster="profile.jpg"
+                    playsinline>
+                    <source src="introduction-video.mp4" type="video/mp4">
+                    <source src="introudction video.mp4" type="video/mp4">
+                    <p>Your browser does not support the HTML5 video tag. <a href="introduction-video.mp4" download>Download video directly</a>.</p>
+                  </video>
+                </div>
+
+                <!-- Video HUD Footer Bar -->
+                <div class="video-hud-footer">
+                  <div class="hud-file-info">
+                    <span class="hud-file-icon">📼</span>
+                    <span class="hud-filename">introduction-video.mp4</span>
+                  </div>
+                  <div class="hud-meta-tags">
+                    <span class="hud-tag">B.E. DATA SCI</span>
+                    <span class="hud-tag">JAVA &amp; PYTHON</span>
+                    <span class="hud-tag">SYSTEMS</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Career Highlights -->
+            <article class="about-card-minimal highlights-card">
+              <h3 class="about-block-title">
+                <span class="title-glyph">🏆</span> Career Highlights
+              </h3>
+              <div class="highlights-grid">
+                <div class="highlight-item">
+                  <span class="highlight-bullet">01</span>
+                  <div>
+                    <h4 class="highlight-heading">Academic Rigor &amp; Data Science Degree</h4>
+                    <p class="highlight-text">Graduated with a 7.4 CGPA in B.E. Data Science, mastering relational database schema modeling, statistical data pipelines, and core computer science foundations.</p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <span class="highlight-bullet">02</span>
+                  <div>
+                    <h4 class="highlight-heading">Tap Academy Java Immersion (2026)</h4>
+                    <p class="highlight-text">Completed intensive training specializing in core Java programming, algorithmic complexity optimization, collection frameworks, and mock technical interview rounds.</p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <span class="highlight-bullet">03</span>
+                  <div>
+                    <h4 class="highlight-heading">Real-World Systems Engineering</h4>
+                    <p class="highlight-text">Architected the <em>Token-Based Appointment &amp; Queue Management System</em> for medical centers and the <em>Lost &amp; Found System</em>, translating complex clinic and community operations into seamless digital workflows.</p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <span class="highlight-bullet">04</span>
+                  <div>
+                    <h4 class="highlight-heading">Certified in Data Analytics</h4>
+                    <p class="highlight-text">Certified in end-to-end data cleansing, SQL multi-table queries, analytical modeling, and visual reporting techniques.</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Personal Interests (Beyond the Terminal) -->
+            <article class="about-card-minimal interests-card">
+              <h3 class="about-block-title">
+                <span class="title-glyph">🎮</span> Personal Interests &amp; Passions
+              </h3>
+              <div class="interests-tags-grid">
+                <div class="interest-badge">
+                  <span class="interest-icon">🧩</span>
+                  <div class="interest-info">
+                    <strong>Algorithmic Puzzles</strong>
+                    <span>Deconstructing coding challenges &amp; optimizing time/space complexity</span>
+                  </div>
+                </div>
+
+                <div class="interest-badge">
+                  <span class="interest-icon">👾</span>
+                  <div class="interest-info">
+                    <strong>Retro &amp; Pixel Art</strong>
+                    <span>Admiring 8-bit/16-bit design, vintage gaming mechanics &amp; chiptune beats</span>
+                  </div>
+                </div>
+
+                <div class="interest-badge">
+                  <span class="interest-icon">🌐</span>
+                  <div class="interest-info">
+                    <strong>Full-Stack Prototyping</strong>
+                    <span>Building side projects, exploring REST APIs &amp; UI interactions</span>
+                  </div>
+                </div>
+
+                <div class="interest-badge">
+                  <span class="interest-icon">📚</span>
+                  <div class="interest-info">
+                    <strong>Continuous Learning</strong>
+                    <span>Reading engineering post-mortems and software architecture articles</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS SECTION: CORE COMPETENCIES & TECHNICAL ABILITIES
+         Interactive pixel-art RPG skill tree highlighting software engineering
+         competencies: Programming Languages, Frontend, Backend & DB, CS Core & Tools.
+         Each skill item includes:
+         - Unique pixel/tech icon
+         - Proficiency Tier badge (MASTER, EXPERT, ADVANCED, CORE)
+         - Stepped retro progress meter with glowing scanline
+         - Explanatory HTML comments defining how each element represents a competency
+         - Styled sub-skill tags detailing key paradigms
+         ========================================================================== -->
+    <section class="skills-section pixel-section" id="skills" aria-label="Skills &amp; Core Competencies">
+      <div class="container">
+        <!-- Section Header -->
+        <header class="section-header">
+          <span class="section-tag">[ 02. STATS // SKILL_MATRIX ]</span>
+          <h2 class="section-title">Core <span class="gradient-text">Competencies</span> &amp; Skills</h2>
+          <p class="section-subtitle">Multi-tier capability tree spanning systems programming, full-stack craft, database pipelines, and algorithmic problem solving.</p>
+        </header>
+
+        <!-- Retro Stats Summary HUD Dashboard -->
+        <aside class="skills-hud-dashboard pixel-box" aria-label="Engineering Capabilities Status Bar">
+          <div class="hud-stat-tile">
+            <span class="hud-label"><span class="hud-glyph">▶</span> TOTAL_NODES</span>
+            <span class="hud-val">16 SKILLS</span>
+          </div>
+          <div class="hud-stat-tile">
+            <span class="hud-label"><span class="hud-glyph">▶</span> PRIMARY_FOCUS</span>
+            <span class="hud-val">JAVA &amp; DATA SCI</span>
+          </div>
+          <div class="hud-stat-tile">
+            <span class="hud-label"><span class="hud-glyph">▶</span> PEAK_MASTERY</span>
+            <span class="hud-val text-accent-gold">95% (MASTER)</span>
+          </div>
+          <div class="hud-stat-tile">
+            <span class="hud-label"><span class="hud-glyph">▶</span> BUILD_STATUS</span>
+            <span class="hud-val text-accent-green">DEPLOY_READY</span>
+          </div>
+        </aside>
+
+        <!-- Interactive Category Filter Tray -->
+        <nav class="skills-filter-tray" aria-label="Filter skills by technical domain">
+          <button type="button" class="pixel-tab-btn is-active" data-filter="all">
+            <span class="tab-glyph">★</span> ALL MODULES
+          </button>
+          <button type="button" class="pixel-tab-btn" data-filter="languages">
+            <span class="tab-glyph">💻</span> LANGUAGES
+          </button>
+          <button type="button" class="pixel-tab-btn" data-filter="frontend">
+            <span class="tab-glyph">🎨</span> FRONTEND
+          </button>
+          <button type="button" class="pixel-tab-btn" data-filter="backend">
+            <span class="tab-glyph">🗄️</span> BACKEND &amp; DB
+          </button>
+          <button type="button" class="pixel-tab-btn" data-filter="core">
+            <span class="tab-glyph">🧠</span> CS CORE &amp; TOOLS
+          </button>
+        </nav>
+
+        <!-- Skills Matrix Grid of RPG Skill Tree Cards -->
+        <div class="skills-grid" id="skillsMatrixGrid">
+
+          <!-- ====================================================================
+               CATEGORY 01: PROGRAMMING LANGUAGES
+               Represents primary coding languages utilized for software development,
+               scripting, and low-level computation.
+               ==================================================================== -->
+          <article class="pixel-skill-tree-card pixel-box" data-category="languages">
+            <!-- Retro Window Titlebar -->
+            <div class="skills-card-window-bar">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+              <span class="window-caption">SYS:/TREE/LANGUAGES.EXE</span>
+            </div>
+
+            <!-- Card Header -->
+            <div class="category-meta-header">
+              <div class="category-icon-frame">💻</div>
+              <div>
+                <h3 class="category-card-title">Programming Languages</h3>
+                <p class="category-card-subtitle">Foundational and modern multi-paradigm languages for enterprise &amp; systems engineering.</p>
+              </div>
+              <span class="category-count-badge">4 NODES</span>
+            </div>
+
+            <!-- Skills List -->
+            <ul class="pixel-skills-list">
+              <!-- [SKILL: JAVA]
+                   Represents enterprise software development, robust OOP architecture, multithreading, and collections framework.
+                   Visual elements:
+                   - ☕ Coffee cup icon: Universal symbol of Java runtime.
+                   - Progress bar (92%): Calibrated to Tap Academy immersion and university engineering coursework.
+                   - Tier Badge 'EXPERT': High-proficiency ranking in memory model, exceptions, and OOP design.
+                   - Sub-skill tags: Break down specific architectural proficiencies. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">☕</span>
+                    <h4 class="skill-title">Java (SE/EE)</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-expert">EXPERT</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">92%</span>
+                  </div>
+                </div>
+                <!-- Stepped Pixel Progress Bar -->
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency: 92 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-cyan" style="--target-width: 92%;" data-level="92">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <!-- Sub-competencies / Topics Breakdown -->
+                <ul class="skill-subtags-list" aria-label="Java key topics">
+                  <li class="skill-subtag">OOP Design</li>
+                  <li class="skill-subtag">Collections API</li>
+                  <li class="skill-subtag">Multithreading</li>
+                  <li class="skill-subtag">Exception Handling</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: PYTHON]
+                   Represents scripting automation, statistical data analytics, data cleaning pipelines, and rapid prototyping.
+                   Visual elements:
+                   - 🐍 Snake icon: Symbolizes Pythonic programming.
+                   - Progress bar (88%): Highlights data science degree curriculum and analytical scripting.
+                   - Tier Badge 'ADVANCED': High proficiency in data manipulation and automated workflows. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🐍</span>
+                    <h4 class="skill-title">Python</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">88%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency: 88 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-gold" style="--target-width: 88%;" data-level="88">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Python key topics">
+                  <li class="skill-subtag">Data Analytics</li>
+                  <li class="skill-subtag">Pandas &amp; NumPy</li>
+                  <li class="skill-subtag">Automation Scripts</li>
+                  <li class="skill-subtag">REST APIs</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: C LANGUAGE]
+                   Represents low-level systems computation, explicit memory allocation, and algorithmic fundamentals.
+                   Visual elements:
+                   - ⚙️ Gear icon: Represents close-to-metal systems processing.
+                   - Progress bar (80%): Demonstrates deep understanding of pointers, structs, and stack/heap memory.
+                   - Tier Badge 'CORE': Foundational benchmark of procedural computer science. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">⚙️</span>
+                    <h4 class="skill-title">C Language</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-core">CORE</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">80%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="C Language proficiency: 80 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-emerald" style="--target-width: 80%;" data-level="80">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="C Language key topics">
+                  <li class="skill-subtag">Pointer Arithmetic</li>
+                  <li class="skill-subtag">Dynamic Memory</li>
+                  <li class="skill-subtag">Structures</li>
+                  <li class="skill-subtag">Procedural Logic</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: JAVASCRIPT]
+                   Represents client-side interaction, event-driven architecture, and asynchronous runtime logic.
+                   Visual elements:
+                   - ⚡ Lightning bolt icon: Symbolizes rapid asynchronous event execution.
+                   - Progress bar (85%): Represents full capability across ES6+, DOM orchestration, and Web APIs.
+                   - Tier Badge 'ADVANCED': Solid competence in modern ECMAScript specifications. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">⚡</span>
+                    <h4 class="skill-title">JavaScript (ES6+)</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">85%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency: 85 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-indigo" style="--target-width: 85%;" data-level="85">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="JavaScript key topics">
+                  <li class="skill-subtag">ES6+ Modules</li>
+                  <li class="skill-subtag">Async / Promises</li>
+                  <li class="skill-subtag">DOM Manipulation</li>
+                  <li class="skill-subtag">Event Architecture</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+
+          <!-- ====================================================================
+               CATEGORY 02: FRONTEND ARCHITECTURE & CRAFT
+               Represents interface engineering, pixel design, CSS layout engines,
+               and responsive user experiences.
+               ==================================================================== -->
+          <article class="pixel-skill-tree-card pixel-box" data-category="frontend">
+            <div class="skills-card-window-bar">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+              <span class="window-caption">SYS:/TREE/FRONTEND_CRAFT.EXE</span>
+            </div>
+
+            <div class="category-meta-header">
+              <div class="category-icon-frame">🎨</div>
+              <div>
+                <h3 class="category-card-title">Frontend Architecture</h3>
+                <p class="category-card-subtitle">Building performant, semantic, accessible, and pixel-art styled user interfaces.</p>
+              </div>
+              <span class="category-count-badge">4 NODES</span>
+            </div>
+
+            <ul class="pixel-skills-list">
+              <!-- [SKILL: HTML5]
+                   Represents standard semantic page architecture, accessibility compliance, and SEO optimization.
+                   Visual elements:
+                   - 🌐 Globe icon: Represents the web's universal document standard.
+                   - Progress bar (95%): Represents mastery of semantic tags, ARIA roles, and document structure.
+                   - Tier Badge 'MASTER': Peak proficiency in clean, valid, search-engine-optimized markup. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🌐</span>
+                    <h4 class="skill-title">HTML5 Semantic &amp; SEO</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-master">MASTER</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">95%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 proficiency: 95 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-gold" style="--target-width: 95%;" data-level="95">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="HTML5 key topics">
+                  <li class="skill-subtag">Semantic HTML5</li>
+                  <li class="skill-subtag">WCAG / ARIA Roles</li>
+                  <li class="skill-subtag">SEO Metadata</li>
+                  <li class="skill-subtag">Form Validation</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: CSS3]
+                   Represents modern CSS styling, Grid/Flexbox layouts, pixel art design tokens, and smooth keyframe animations.
+                   Visual elements:
+                   - 🎨 Palette icon: Depicts visual design and creative styling mastery.
+                   - Progress bar (92%): High score reflecting complex pixel box-shadows, animations, and theme systems.
+                   - Tier Badge 'EXPERT': Expert execution of responsive, maintainable stylesheets. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🎨</span>
+                    <h4 class="skill-title">CSS3 &amp; Pixel Art Styling</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-expert">EXPERT</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">92%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 proficiency: 92 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-cyan" style="--target-width: 92%;" data-level="92">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="CSS3 key topics">
+                  <li class="skill-subtag">Flexbox &amp; Grid</li>
+                  <li class="skill-subtag">CSS Custom Props</li>
+                  <li class="skill-subtag">Keyframe Animations</li>
+                  <li class="skill-subtag">Pixel Shading</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: RESPONSIVE UI]
+                   Represents cross-device mobile-first engineering, breakpoint choreography, and touch ergonomics.
+                   Visual elements:
+                   - 📱 Phone icon: Represents multi-viewport and mobile-responsive layout engineering.
+                   - Progress bar (90%): High proficiency in off-canvas navigation and dynamic fluid layouts.
+                   - Tier Badge 'EXPERT': Flawless user experience on desktop, tablet, and mobile displays. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">📱</span>
+                    <h4 class="skill-title">Responsive UI &amp; Mobile First</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-expert">EXPERT</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">90%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Responsive UI proficiency: 90 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-indigo" style="--target-width: 90%;" data-level="90">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Responsive UI key topics">
+                  <li class="skill-subtag">Mobile-First Design</li>
+                  <li class="skill-subtag">Off-Canvas Drawers</li>
+                  <li class="skill-subtag">Adaptive Viewports</li>
+                  <li class="skill-subtag">Touch UX</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: COMPONENT & DESIGN SYSTEMS]
+                   Represents modular UI architecture, HUD gaming design aesthetics, and atomic style consistency.
+                   Visual elements:
+                   - 🧩 Puzzle icon: Represents modularity, reusable component blocks, and cohesive design tokens.
+                   - Progress bar (86%): Reflects structured design token management and glassmorphic styling.
+                   - Tier Badge 'ADVANCED': High competence in building maintainable component libraries. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🧩</span>
+                    <h4 class="skill-title">Design Systems &amp; HUD</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">86%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="Design Systems proficiency: 86 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-emerald" style="--target-width: 86%;" data-level="86">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Design Systems key topics">
+                  <li class="skill-subtag">Design Tokens</li>
+                  <li class="skill-subtag">Pixel HUD Interfaces</li>
+                  <li class="skill-subtag">Micro-Interactions</li>
+                  <li class="skill-subtag">Theme Switching</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+
+          <!-- ====================================================================
+               CATEGORY 03: BACKEND, DATABASES & DATA PIPELINES
+               Represents persistent data systems, relational modeling, SQL optimization,
+               and data engineering pipelines from B.E. Data Science.
+               ==================================================================== -->
+          <article class="pixel-skill-tree-card pixel-box" data-category="backend">
+            <div class="skills-card-window-bar">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+              <span class="window-caption">SYS:/TREE/DATA_PIPELINES.EXE</span>
+            </div>
+
+            <div class="category-meta-header">
+              <div class="category-icon-frame">🗄️</div>
+              <div>
+                <h3 class="category-card-title">Backend &amp; Databases</h3>
+                <p class="category-card-subtitle">Relational schema design, high-integrity transactions, and analytical data extraction.</p>
+              </div>
+              <span class="category-count-badge">4 NODES</span>
+            </div>
+
+            <ul class="pixel-skills-list">
+              <!-- [SKILL: MYSQL]
+                   Represents enterprise relational data modeling, schema normalization, and ACID transaction reliability.
+                   Visual elements:
+                   - 🗄️ Cabinet/Database icon: Symbolizes relational data stores and structured storage.
+                   - Progress bar (90%): Backed by academic projects (Hospital Token & Lost/Found DBs) and coursework.
+                   - Tier Badge 'EXPERT': High capability in ER diagrams, foreign key constraints, and schema design. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🗄️</span>
+                    <h4 class="skill-title">MySQL Relational DB</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-expert">EXPERT</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">90%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="MySQL proficiency: 90 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-cyan" style="--target-width: 90%;" data-level="90">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="MySQL key topics">
+                  <li class="skill-subtag">Relational Modeling</li>
+                  <li class="skill-subtag">Normalization (1NF-3NF)</li>
+                  <li class="skill-subtag">Foreign Keys</li>
+                  <li class="skill-subtag">ACID Compliance</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: SQL QUERYING & OPTIMIZATION]
+                   Represents complex multi-table joins, analytical subqueries, aggregate grouping, and query tuning.
+                   Visual elements:
+                   - 📊 Chart icon: Represents SQL's role in data extraction and business reporting.
+                   - Progress bar (88%): High score earned through Data Analytics Certification and database tuning.
+                   - Tier Badge 'ADVANCED': Proficient in crafting optimized queries across large datasets. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">📊</span>
+                    <h4 class="skill-title">SQL Analytics &amp; Querying</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">88%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="SQL Querying proficiency: 88 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-gold" style="--target-width: 88%;" data-level="88">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="SQL Querying key topics">
+                  <li class="skill-subtag">Complex Joins</li>
+                  <li class="skill-subtag">Subqueries &amp; Groups</li>
+                  <li class="skill-subtag">Indexing Concepts</li>
+                  <li class="skill-subtag">Stored Procedures</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: JAVA BACKEND & JDBC]
+                   Represents server-side business logic, JDBC driver connectivity, DAO architectures, and transactional persistence.
+                   Visual elements:
+                   - 🔌 Connector plug icon: Symbolizes backend data pipelines bridging Java application logic to SQL databases.
+                   - Progress bar (86%): Reflects comprehensive Tap Academy backend modules and real-world system implementations.
+                   - Tier Badge 'ADVANCED': Deep proficiency in prepared statements and robust DAO layers. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🔌</span>
+                    <h4 class="skill-title">Java Backend &amp; JDBC</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">86%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="Java Backend proficiency: 86 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-indigo" style="--target-width: 86%;" data-level="86">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Java Backend key topics">
+                  <li class="skill-subtag">JDBC Connectivity</li>
+                  <li class="skill-subtag">DAO Architecture</li>
+                  <li class="skill-subtag">Prepared Statements</li>
+                  <li class="skill-subtag">CRUD Pipelines</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: DATA CLEANING & ANALYTICS]
+                   Represents data preprocessing, imputation of missing entries, outlier handling, and statistical exploratory analysis.
+                   Visual elements:
+                   - 🧹 Broom icon: Classic representation of data cleansing and preprocessing routines.
+                   - Progress bar (85%): Direct reflection of B.E. in Data Science curriculum and certification.
+                   - Tier Badge 'ADVANCED': High competence in transforming messy datasets into reliable models. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🧹</span>
+                    <h4 class="skill-title">Data Cleaning &amp; Pipelines</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">85%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Data Cleaning proficiency: 85 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-emerald" style="--target-width: 85%;" data-level="85">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Data Cleaning key topics">
+                  <li class="skill-subtag">Data Imputation</li>
+                  <li class="skill-subtag">Exploratory Analysis (EDA)</li>
+                  <li class="skill-subtag">Outlier Handling</li>
+                  <li class="skill-subtag">Data Transformation</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+
+          <!-- ====================================================================
+               CATEGORY 04: CS FUNDAMENTALS & DEVELOPER TOOLING
+               Represents algorithmic problem solving, software design patterns,
+               version control, and daily developer productivity tools.
+               ==================================================================== -->
+          <article class="pixel-skill-tree-card pixel-box" data-category="core">
+            <div class="skills-card-window-bar">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+              <span class="window-caption">SYS:/TREE/SYSTEM_CORE.EXE</span>
+            </div>
+
+            <div class="category-meta-header">
+              <div class="category-icon-frame">🧠</div>
+              <div>
+                <h3 class="category-card-title">CS Core &amp; Dev Toolchains</h3>
+                <p class="category-card-subtitle">Algorithmic analysis, object-oriented system design, and production engineering workflows.</p>
+              </div>
+              <span class="category-count-badge">4 NODES</span>
+            </div>
+
+            <ul class="pixel-skills-list">
+              <!-- [SKILL: DATA STRUCTURES & ALGORITHMS]
+                   Represents time/space complexity optimization (Big-O), linear and non-linear data structures, and algorithmic logic.
+                   Visual elements:
+                   - 🌳 Tree icon: Universal symbol for hierarchical data structures, search trees, and graphs.
+                   - Progress bar (88%): Strong analytical foundation forged across intensive training and interview preparation.
+                   - Tier Badge 'ADVANCED': High competence in algorithmic decomposition and problem-solving. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🌳</span>
+                    <h4 class="skill-title">Data Structures &amp; Algorithms</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">88%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="DSA proficiency: 88 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-cyan" style="--target-width: 88%;" data-level="88">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="DSA key topics">
+                  <li class="skill-subtag">Arrays &amp; Linked Lists</li>
+                  <li class="skill-subtag">Stacks &amp; Queues</li>
+                  <li class="skill-subtag">Trees &amp; Traversal</li>
+                  <li class="skill-subtag">Big-O Optimization</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: OBJECT-ORIENTED PROGRAMMING]
+                   Represents software engineering design principles, encapsulation, polymorphism, inheritance, and clean code paradigms.
+                   Visual elements:
+                   - 🧱 Brick block icon: Symbolizes modular building blocks and robust architectural construction.
+                   - Progress bar (92%): Top-tier mastery proven across extensive Java OOP design projects.
+                   - Tier Badge 'EXPERT': Expert application of SOLID principles and modular class architecture. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🧱</span>
+                    <h4 class="skill-title">Object-Oriented Design (OOP)</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-expert">EXPERT</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">92%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="OOP proficiency: 92 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-gold" style="--target-width: 92%;" data-level="92">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="OOP key topics">
+                  <li class="skill-subtag">Encapsulation &amp; Abstraction</li>
+                  <li class="skill-subtag">Inheritance &amp; Polymorphism</li>
+                  <li class="skill-subtag">SOLID Principles</li>
+                  <li class="skill-subtag">Modular Design Patterns</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: GIT & GITHUB]
+                   Represents distributed version control, commit hygiene, team branch flows, and collaborative repository management.
+                   Visual elements:
+                   - 🐙 Octocat/Branch icon: Symbol of Git version control and GitHub collaborative ecosystems.
+                   - Progress bar (88%): Confident management of repos, branches, rebasing, and merge resolution.
+                   - Tier Badge 'ADVANCED': Reliable proficiency in source code version control. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🐙</span>
+                    <h4 class="skill-title">Git &amp; Distributed VCS</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-advanced">ADVANCED</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">88%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Git and VCS proficiency: 88 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-emerald" style="--target-width: 88%;" data-level="88">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Git key topics">
+                  <li class="skill-subtag">Branching &amp; Merging</li>
+                  <li class="skill-subtag">Commit Hygiene</li>
+                  <li class="skill-subtag">GitHub Collaboration</li>
+                  <li class="skill-subtag">Conflict Resolution</li>
+                </ul>
+              </li>
+
+              <!-- [SKILL: DEVELOPER TOOLCHAINS & ENVIRONMENT]
+                   Represents IDE efficiency (VS Code, IntelliJ), shell terminal scripting, debugging tools, and dev workflow automation.
+                   Visual elements:
+                   - 🛠️ Crossed tools icon: Symbolizes daily developer utilities, toolchains, and productivity setups.
+                   - Progress bar (90%): High agility across modern IDEs, PowerShell/Bash command-lines, and debugging runtimes.
+                   - Tier Badge 'EXPERT': Comprehensive command of the developer engineering workflow. -->
+              <li class="pixel-skill-item">
+                <div class="skill-main-row">
+                  <div class="skill-name-group">
+                    <span class="skill-pointer" aria-hidden="true">▶</span>
+                    <span class="skill-emoji-icon" aria-hidden="true">🛠️</span>
+                    <h4 class="skill-title">Developer Toolchains &amp; CLI</h4>
+                  </div>
+                  <div class="skill-meta-group">
+                    <span class="pixel-tier-badge tier-expert">EXPERT</span>
+                    <span class="pixel-stat-percent" aria-hidden="true">90%</span>
+                  </div>
+                </div>
+                <div class="pixel-meter-track" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Developer Toolchains proficiency: 90 percent">
+                  <div class="pixel-meter-notches" aria-hidden="true"></div>
+                  <div class="pixel-meter-fill fill-accent-indigo" style="--target-width: 90%;" data-level="90">
+                    <span class="meter-scanline"></span>
+                  </div>
+                </div>
+                <ul class="skill-subtags-list" aria-label="Developer Toolchains key topics">
+                  <li class="skill-subtag">VS Code &amp; IntelliJ</li>
+                  <li class="skill-subtag">Terminal CLI / Shell</li>
+                  <li class="skill-subtag">Debugging &amp; Breakpoints</li>
+                  <li class="skill-subtag">Workflow Automation</li>
+                </ul>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TIMELINE / EXPERIENCE & MILESTONES SECTION
+         Chronological journey of education, major software engineering projects,
+         and professional training immersion.
+         Designed with rounded minimalist cards, smooth CSS hover transitions,
+         and pixel art accents matching the portfolio theme.
+         ========================================================================== -->
+    <section class="timeline-section pixel-section" id="timeline" aria-label="Experience and Career Milestones">
+      <div class="container">
+        <!-- Section Header -->
+        <header class="section-header">
+          <span class="section-tag">[ 03. CHRONOLOGY // CAREER_PATH ]</span>
+          <h2 class="section-title">Experience &amp; <span class="gradient-text">Milestones</span></h2>
+          <p class="section-subtitle">Chronological progression of academic foundations, intensive full-stack training, and major systems engineering projects.</p>
+        </header>
+
+        <!-- Timeline Chronological Spine Container -->
+        <div class="timeline-container">
+          <!-- Animated Vertical Connecting Track -->
+          <div class="timeline-track" aria-hidden="true"></div>
+
+          <!-- ====================================================================
+               EVENT 1 (2026): PROFESSIONAL IMMERSION - TAP ACADEMY
+               Intensive training in Java, algorithmic optimization, and OOP design
+               ==================================================================== -->
+          <article class="timeline-item" data-category="training">
+            <div class="timeline-marker marker-training" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card rounded-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badge-group">
+                  <span class="timeline-type-pill pill-training">
+                    <span class="pill-glyph">⚡</span> PROFESSIONAL IMMERSION
+                  </span>
+                  <span class="timeline-status-pill">COMPLETED</span>
+                </div>
+                <time class="timeline-date-badge" datetime="2026">2026</time>
+              </div>
+
+              <div class="timeline-title-row">
+                <h3 class="timeline-role">Java Full-Stack &amp; Algorithmic Program</h3>
+                <span class="timeline-org">Tap Academy</span>
+              </div>
+
+              <p class="timeline-desc">
+                Completed an intensive hands-on curriculum specializing in core Java programming, algorithmic complexity optimization, and enterprise backend engineering.
+              </p>
+
+              <ul class="timeline-deliverables">
+                <li>Engineered robust Java applications incorporating multi-dimensional arrays, strings, and the Java Collections Framework (ArrayList, HashMap, LinkedList).</li>
+                <li>Mastered algorithmic problem solving, honing conditional logic and iterative control structures for optimal asymptotic runtime (Big-O).</li>
+                <li>Participated in rigorous technical mock interviews, live code refactoring rounds, and system design drills.</li>
+              </ul>
+
+              <div class="timeline-tags-tray" aria-label="Key Technologies">
+                <span class="timeline-tag">Java SE</span>
+                <span class="timeline-tag">Data Structures</span>
+                <span class="timeline-tag">OOP Architecture</span>
+                <span class="timeline-tag">Collections API</span>
+                <span class="timeline-tag">Complexity Analysis</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ====================================================================
+               EVENT 2 (2025 - 2026): MAJOR PROJECT - TOKEN-BASED APPOINTMENT SYSTEM
+               Engineering a full-stack medical clinic appointment and queue manager
+               ==================================================================== -->
+          <article class="timeline-item" data-category="project">
+            <div class="timeline-marker marker-project" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card rounded-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badge-group">
+                  <span class="timeline-type-pill pill-project">
+                    <span class="pill-glyph">🚀</span> MAJOR PROJECT MILESTONE
+                  </span>
+                  <span class="timeline-status-pill status-featured">FEATURED</span>
+                </div>
+                <time class="timeline-date-badge" datetime="2025/2026">2025 - 2026</time>
+              </div>
+
+              <div class="timeline-title-row">
+                <h3 class="timeline-role">Token-Based Appointment &amp; Queue Management System</h3>
+                <span class="timeline-org">Healthcare Systems Engineering</span>
+              </div>
+
+              <p class="timeline-desc">
+                Architected and developed a full-cycle medical clinic workflow management system that eliminates chaotic waiting rooms by introducing automated digital queue scheduling.
+              </p>
+
+              <ul class="timeline-deliverables">
+                <li>Implemented an algorithmic FIFO token dispatching engine with dynamic doctor availability tracking and appointment status updates.</li>
+                <li>Designed a normalized MySQL schema ensuring strict relational data integrity for patient records, doctor profiles, and time-stamped visit tokens.</li>
+                <li>Built a responsive, accessible patient and staff dashboard featuring clean tabular queues, token lookup, and status telemetry.</li>
+              </ul>
+
+              <div class="timeline-tags-tray" aria-label="Key Technologies">
+                <span class="timeline-tag">Java</span>
+                <span class="timeline-tag">MySQL</span>
+                <span class="timeline-tag">Queue Algorithms</span>
+                <span class="timeline-tag">Relational Modeling</span>
+                <span class="timeline-tag">Responsive UI</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ====================================================================
+               EVENT 3 (2025): CERTIFICATION - DATA ANALYTICS & PIPELINES
+               Mastery of SQL queries, data cleansing, and analytical modeling
+               ==================================================================== -->
+          <article class="timeline-item" data-category="certification">
+            <div class="timeline-marker marker-cert" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card rounded-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badge-group">
+                  <span class="timeline-type-pill pill-cert">
+                    <span class="pill-glyph">📜</span> CERTIFICATION MILESTONE
+                  </span>
+                  <span class="timeline-status-pill">CERTIFIED</span>
+                </div>
+                <time class="timeline-date-badge" datetime="2025">2025</time>
+              </div>
+
+              <div class="timeline-title-row">
+                <h3 class="timeline-role">Certified in Data Analytics</h3>
+                <span class="timeline-org">Professional Data Specialization</span>
+              </div>
+
+              <p class="timeline-desc">
+                Earned specialized certification covering end-to-end data preparation, complex multi-table SQL querying, exploratory analysis (EDA), and automated data reporting.
+              </p>
+
+              <ul class="timeline-deliverables">
+                <li>Constructed multi-table SQL queries utilizing nested subqueries, window groupings, and join optimization across relational stores.</li>
+                <li>Implemented statistical data cleansing scripts in Python (Pandas/NumPy) to impute missing attributes and detect distribution outliers.</li>
+                <li>Developed visual analytics dashboards communicating key performance indicators and actionable metrics.</li>
+              </ul>
+
+              <div class="timeline-tags-tray" aria-label="Key Technologies">
+                <span class="timeline-tag">SQL Analytics</span>
+                <span class="timeline-tag">Python Pandas</span>
+                <span class="timeline-tag">Data Cleaning</span>
+                <span class="timeline-tag">EDA Modeling</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ====================================================================
+               EVENT 4 (2024 - 2025): MAJOR PROJECT - COMMUNITY LOST & FOUND PORTAL
+               Engineering a community cataloging platform with item lifecycle tracking
+               ==================================================================== -->
+          <article class="timeline-item" data-category="project">
+            <div class="timeline-marker marker-project" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card rounded-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badge-group">
+                  <span class="timeline-type-pill pill-project">
+                    <span class="pill-glyph">⚔️</span> MAJOR PROJECT MILESTONE
+                  </span>
+                  <span class="timeline-status-pill">DEPLOYED</span>
+                </div>
+                <time class="timeline-date-badge" datetime="2024/2025">2024 - 2025</time>
+              </div>
+
+              <div class="timeline-title-row">
+                <h3 class="timeline-role">Community Lost &amp; Found Portal</h3>
+                <span class="timeline-org">Web Platforms Engineering</span>
+              </div>
+
+              <p class="timeline-desc">
+                Engineered an intuitive community platform enabling users to report, search, and verify lost belongings through a categorized claims lifecycle.
+              </p>
+
+              <ul class="timeline-deliverables">
+                <li>Developed complete CRUD operations for item reporting, image documentation, location tagging, and multi-state status transitions (Reported, Claimed, Returned).</li>
+                <li>Created instant category and keyword search filters enabling community members to locate reported items in real time.</li>
+                <li>Built administrative moderation interfaces to verify proof-of-ownership claims and prevent fraudulent claim submissions.</li>
+              </ul>
+
+              <div class="timeline-tags-tray" aria-label="Key Technologies">
+                <span class="timeline-tag">Full-Stack Web</span>
+                <span class="timeline-tag">MySQL DB</span>
+                <span class="timeline-tag">CRUD Operations</span>
+                <span class="timeline-tag">Filter Systems</span>
+                <span class="timeline-tag">UI/UX Design</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- ====================================================================
+               EVENT 5 (2020 - 2024): ACADEMIC DEGREE - B.E. IN DATA SCIENCE
+               Bachelor of Engineering degree from Adichunchanagiri Institute of Technology
+               ==================================================================== -->
+          <article class="timeline-item" data-category="education">
+            <div class="timeline-marker marker-edu" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card rounded-card">
+              <div class="timeline-card-header">
+                <div class="timeline-badge-group">
+                  <span class="timeline-type-pill pill-edu">
+                    <span class="pill-glyph">🎓</span> ACADEMIC FOUNDATION
+                  </span>
+                  <span class="timeline-status-pill">GRADUATED (7.4 CGPA)</span>
+                </div>
+                <time class="timeline-date-badge" datetime="2020/2024">2020 - 2024</time>
+              </div>
+
+              <div class="timeline-title-row">
+                <h3 class="timeline-role">Bachelor of Engineering in Data Science</h3>
+                <span class="timeline-org">Adichunchanagiri Institute of Technology (AIT)</span>
+              </div>
+
+              <p class="timeline-desc">
+                Four-year engineering degree combining computer science fundamentals, data structures, relational database architecture, probability &amp; statistics, and software engineering.
+              </p>
+
+              <ul class="timeline-deliverables">
+                <li>Graduated with a 7.4 cumulative CGPA with distinction in core software and database engineering subjects.</li>
+                <li>Conducted academic capstone research bridging statistical data processing with production web interfaces.</li>
+                <li>Mastered procedural programming in C, object-oriented concepts in Java, and computational analysis in Python.</li>
+              </ul>
+
+              <div class="timeline-tags-tray" aria-label="Key Technologies">
+                <span class="timeline-tag">Computer Science</span>
+                <span class="timeline-tag">Database Systems</span>
+                <span class="timeline-tag">Algorithms</span>
+                <span class="timeline-tag">Data Engineering</span>
+                <span class="timeline-tag">Statistics</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROJECTS SECTION
+         Featured software project thumbnails with hover overlays, status badges,
+         and clickable links to project details / GitHub.
+         Each thumbnail card represents one of Mohammed's real-world engineering projects.
+         CSS transitions create a smooth lift + overlay reveal on hover.
+         ========================================================================== -->
+    <section class="projects-section pixel-section" id="projects" aria-label="Featured Projects">
+      <div class="container">
+        <!-- Section Header -->
+        <header class="section-header">
+          <span class="section-tag">[ 04. INVENTORY // PROJECTS.EXE ]</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world systems engineered from the ground up — full-stack applications bridging database architecture with clean user experience.</p>
+        </header>
+
+        <!-- Project Thumbnails Grid -->
+        <!-- Each .project-thumb-card acts as a clickable thumbnail linking to GitHub -->
+        <div class="projects-thumb-grid">
+
+          <!-- ====================================================================
+               PROJECT 01: Token-Based Appointment & Queue Management System
+               Thumbnail connects to the full project on GitHub.
+               The overlay on hover reveals detailed project information —
+               acting as the "detailed view" opened by clicking the thumbnail.
+               ==================================================================== -->
+          <!-- Clicking the entire card opens the project link (linked via data-href + JS) -->
+          <article class="project-thumb-card" data-href="https://github.com/Rahil500" tabindex="0" role="button" aria-label="View Token-Based Queue System project on GitHub">
+            <!-- Status badge indicates project lifecycle state -->
+            <div class="project-status-badge badge-deployed">DEPLOYED ✓</div>
+
+            <!-- Thumbnail Visual: Pixel Art Preview Panel -->
+            <!-- This panel visually identifies what category the project is -->
+            <div class="project-thumb-visual">
+              <div class="project-thumb-icon-display">
+                <span class="thumb-main-icon" aria-hidden="true">🏥</span>
+                <div class="thumb-pixel-grid" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+              <!-- Hover Overlay: Detailed View that expands on hover like opening a thumbnail -->
+              <div class="project-overlay" aria-hidden="true">
+                <p class="overlay-desc">Automated FIFO token dispatch engine with real-time queue telemetry, patient records management, and responsive clinic dashboard for PHC medical centers.</p>
+                <div class="overlay-links">
+                  <!-- GitHub link — primary action when thumbnail is clicked -->
+                  <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="overlay-link-btn" aria-label="View source on GitHub" onclick="event.stopPropagation()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                    View on GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Thumbnail Info Panel -->
+            <div class="project-thumb-info">
+              <div class="project-thumb-header">
+                <span class="project-category-pill">Healthcare · Full-Stack Web App</span>
+                <div class="project-thumb-links">
+                  <!-- GitHub link accessible alongside the thumbnail click -->
+                  <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="thumb-icon-link" aria-label="GitHub Repository" onclick="event.stopPropagation()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-thumb-title">Token-Based Appointment &amp; Queue Management System</h3>
+              <p class="project-thumb-desc">Eliminates chaotic medical waiting rooms through automated digital queue scheduling with real-time patient tracking.</p>
+              <!-- Tech stack tags identify specific technologies used, connecting the thumbnail to its implementation -->
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- ====================================================================
+               PROJECT 02: Lost & Found Community Portal
+               Thumbnail clicking opens GitHub repository.
+               Overlay on hover acts as the detailed view, previewing key features.
+               ==================================================================== -->
+          <article class="project-thumb-card" data-href="https://github.com/Rahil500" tabindex="0" role="button" aria-label="View Lost and Found Portal project on GitHub">
+            <div class="project-status-badge badge-deployed">DEPLOYED ✓</div>
+
+            <div class="project-thumb-visual">
+              <div class="project-thumb-icon-display">
+                <span class="thumb-main-icon" aria-hidden="true">🔍</span>
+                <div class="thumb-pixel-grid" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+              <!-- Hover overlay = thumbnail's "detailed view" for Lost & Found portal -->
+              <div class="project-overlay" aria-hidden="true">
+                <p class="overlay-desc">Community cataloging system with CRUD lifecycle for lost belongings, category-based search filters, and secure admin claim verification workflows.</p>
+                <div class="overlay-links">
+                  <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="overlay-link-btn" aria-label="View source on GitHub" onclick="event.stopPropagation()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                    View on GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-thumb-info">
+              <div class="project-thumb-header">
+                <span class="project-category-pill">Community · Web Platform</span>
+                <div class="project-thumb-links">
+                  <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="thumb-icon-link" aria-label="GitHub Repository" onclick="event.stopPropagation()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-thumb-title">Community Lost &amp; Found Portal</h3>
+              <p class="project-thumb-desc">Centralized community platform enabling categorized item reporting, real-time search, and secure claim verification workflows.</p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">CRUD API</span>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- ====================================================================
+               PROJECT 03: Portfolio Website (This Site)
+               Meta project - the portfolio itself serves as a technical showcase.
+               Thumbnail links directly to the live site / top of page.
+               ==================================================================== -->
+          <article class="project-thumb-card" data-href="#hero" tabindex="0" role="button" aria-label="View this Portfolio Website project">
+            <div class="project-status-badge badge-live">LIVE ◉</div>
+
+            <div class="project-thumb-visual">
+              <div class="project-thumb-icon-display">
+                <span class="thumb-main-icon" aria-hidden="true">👾</span>
+                <div class="thumb-pixel-grid" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+              <!-- Hover overlay reveals the portfolio's own technical highlights -->
+              <div class="project-overlay" aria-hidden="true">
+                <p class="overlay-desc">A pixel art RPG-themed interactive portfolio built with semantic HTML5, vanilla CSS3 with design tokens, and pure JavaScript — zero dependencies, maximum craftsmanship.</p>
+                <div class="overlay-links">
+                  <a href="http://127.0.0.1:5500/index.html#hero" class="overlay-link-btn" aria-label="View this Portfolio live" onclick="event.stopPropagation()">
+                    ◉ View Live Site
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-thumb-info">
+              <div class="project-thumb-header">
+                <span class="project-category-pill">Frontend · Portfolio Design</span>
+                <div class="project-thumb-links">
+                  <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="thumb-icon-link" aria-label="GitHub Repository" onclick="event.stopPropagation()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                  </a>
+                </div>
+              </div>
+              <h3 class="project-thumb-title">Pixel Art Portfolio Website (This Site)</h3>
+              <p class="project-thumb-desc">Retro RPG-styled portfolio with pixel art design system, dark/light theme switching, scroll-spy navigation, and interactive terminal chat.</p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Vanilla JS</span>
+                <span class="tech-tag">Pixel Art</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EDUCATION & ACHIEVEMENTS SECTION PLACEHOLDER
+         Degrees, academic certifications, and personal development milestones
+         ========================================================================== -->
+    <section class="education-section" id="education" aria-label="Education and Certifications">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">05. Academics &amp; Credentials</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Achievements</span></h2>
+          <p class="section-subtitle">Academic qualifications and certified technical achievements.</p>
+        </header>
+
+        <div class="edu-grid">
+          <!-- Academic Qualifications -->
+          <div class="edu-column">
+            <h3 class="column-title">🎓 Formal Education</h3>
+            
+            <div class="edu-card">
+              <span class="edu-period">2022 – 2026</span>
+              <h4 class="edu-degree">B.E. – Data Science</h4>
+              <p class="edu-school">Adichunchanagiri Institute of Technology</p>
+              <div class="edu-score-badge">CGPA: 7.4</div>
+            </div>
+
+            <div class="edu-card">
+              <span class="edu-period">Pre-University</span>
+              <h4 class="edu-degree">Pre-University Course</h4>
+              <p class="edu-school">St. Mary’s Pre University College</p>
+              <div class="edu-score-badge">Score: 85.16%</div>
+            </div>
+
+            <div class="edu-card">
+              <span class="edu-period">SSLC</span>
+              <h4 class="edu-degree">Secondary School Leaving Certificate</h4>
+              <p class="edu-school">St. Mary’s High School</p>
+              <div class="edu-score-badge">Score: 82.4%</div>
+            </div>
+          </div>
+
+          <!-- Certifications & Achievements -->
+          <div class="edu-column">
+            <h3 class="column-title">🏆 Certifications &amp; Milestones</h3>
+            
+            <div class="achievement-card">
+              <div class="achievement-icon">📊</div>
+              <div class="achievement-details">
+                <h4>Data Analytics Certification</h4>
+                <p>Comprehensive training in data cleaning pipelines, visualization techniques, Advanced Excel, and SQL query optimization.</p>
+              </div>
+            </div>
+
+            <div class="achievement-card">
+              <div class="achievement-icon">🌱</div>
+              <div class="achievement-details">
+                <h4>Professional Development Certification</h4>
+                <p>Focused on executive presentation, interpersonal collaboration, self-assurance, and agile workplace readiness.</p>
+              </div>
+            </div>
+
+            <div class="achievement-card">
+              <div class="achievement-icon">☕</div>
+              <div class="achievement-details">
+                <h4>Java &amp; Interview Prep Training</h4>
+                <p>Intensive algorithmic problem-solving, live coding sessions, and software design principles at Tap Academy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS SECTION PLACEHOLDER (PIXEL ART STYLE)
+         Recommendations, peer reviews, and mentorship feedback
+         ========================================================================== -->
+    <section class="testimonials-section pixel-section" id="testimonials" aria-label="Testimonials and Recommendations">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">[ 06. GUILD REPUTATION ]</span>
+          <h2 class="section-title">Player <span class="gradient-text">Testimonials</span></h2>
+          <p class="section-subtitle">Endorsements and reviews from technical instructors, academic guides, and engineering peers.</p>
+        </header>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="pixel-testimonial-card">
+            <div class="test-card-header">
+              <div class="test-avatar-box">
+                <span class="test-pixel-icon">👨‍🏫</span>
+              </div>
+              <div class="test-author-info">
+                <h3 class="test-author-name">Senior Java Trainer</h3>
+                <span class="test-author-role">Tap Academy Bangalore</span>
+              </div>
+              <div class="test-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            </div>
+            <blockquote class="test-quote">
+              "Mohammed displayed exceptional dedication throughout our intensive Java training program. His grasp of object-oriented design, algorithmic problem-solving, and recursive data flow stood out. A disciplined developer who writes structured, production-ready code."
+            </blockquote>
+            <div class="test-badge">VERIFIED TRAINER</div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="pixel-testimonial-card">
+            <div class="test-card-header">
+              <div class="test-avatar-box">
+                <span class="test-pixel-icon">🎓</span>
+              </div>
+              <div class="test-author-info">
+                <h3 class="test-author-name">Project Guide</h3>
+                <span class="test-author-role">Adichunchanagiri Inst. of Tech</span>
+              </div>
+              <div class="test-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            </div>
+            <blockquote class="test-quote">
+              "During the development of the Token-Based Healthcare Queue Management System, Mohammed demonstrated outstanding technical clarity. He designed an efficient MySQL schema and engineered real-time queue tracking that solved genuine congestion bottlenecks."
+            </blockquote>
+            <div class="test-badge">PROJECT ADVISOR</div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="pixel-testimonial-card">
+            <div class="test-card-header">
+              <div class="test-avatar-box">
+                <span class="test-pixel-icon">💻</span>
+              </div>
+              <div class="test-author-info">
+                <h3 class="test-author-name">Software Engineer Peer</h3>
+                <span class="test-author-role">Collaborative Development</span>
+              </div>
+              <div class="test-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            </div>
+            <blockquote class="test-quote">
+              "Mohammed is an analytical and reliable pair programmer. When collaborating on full-stack applications, he quickly breaks down requirements, creates crisp architectures, and writes maintainable code. A high-value team member for any engineering squad."
+            </blockquote>
+            <div class="test-badge">DEV COLLABORATOR</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CHAT SECTION PLACEHOLDER (PIXEL ART TERMINAL)
+         Interactive 8-bit messaging console & quick dialogue prompts
+         ========================================================================== -->
+    <section class="chat-section pixel-section" id="chat" aria-label="Interactive Chat Console">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">[ 07. TRANSMISSION CONSOLE ]</span>
+          <h2 class="section-title">Terminal <span class="gradient-text">Chat</span></h2>
+          <p class="section-subtitle">Send a quick transmission or choose an interactive dialogue prompt to connect instantly.</p>
+        </header>
+
+        <div class="pixel-chat-terminal">
+          <!-- Terminal Window Header -->
+          <div class="terminal-bar">
+            <span class="terminal-title">NPC_CHAT_TERMINAL.EXE [ONLINE]</span>
+            <div class="terminal-buttons">
+              <span class="win-btn">_</span>
+              <span class="win-btn">□</span>
+              <span class="win-btn">×</span>
+            </div>
+          </div>
+
+          <!-- Terminal Dialogue Screen -->
+          <div class="terminal-screen" id="terminalScreen">
+            <div class="terminal-msg npc-msg">
+              <span class="msg-sender">[RAHIL_BOT]:</span>
+              <p>Greetings, Traveler! 👋 Welcome to my portfolio realm. What quest brings you here today?</p>
+            </div>
+            <div class="terminal-msg system-msg">
+              <span class="msg-sender">[SYSTEM]:</span>
+              <p>Select a quick dialogue prompt below or enter your transmission:</p>
+            </div>
+          </div>
+
+          <!-- Quick Dialogue Options -->
+          <div class="chat-preset-options">
+            <button class="pixel-chip-btn" type="button" data-prompt="I have an exciting software engineering role for you!">💼 Discuss Job Role</button>
+            <button class="pixel-chip-btn" type="button" data-prompt="Let's build a software project together.">🚀 Project Inquiry</button>
+            <button class="pixel-chip-btn" type="button" data-prompt="Just wanted to say hello and love your pixel art portfolio!">👋 Say Hello</button>
+          </div>
+
+          <!-- Terminal Input Row -->
+          <form class="terminal-input-form" id="terminalChatForm">
+            <span class="terminal-prompt-caret">&gt;</span>
+            <input type="text" id="terminalInput" class="terminal-input-field" placeholder="Type transmission..." autocomplete="off" required="">
+            <button type="submit" class="pixel-btn pixel-btn-primary chat-send-btn">
+              <span>SEND</span> ↵
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION PLACEHOLDER
+         Direct email, phone, location, interactive contact form, and social links
+         ========================================================================== -->
+    <section class="contact-section" id="contact" aria-label="Contact Mohammed Rahil">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">[ 08. TRANSMIT // CONTACT.FORM ]</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">Interested in working together or discussing software engineering roles? Reach out anytime!</p>
+        </header>
+
+        <div class="contact-wrapper">
+          <!-- Contact Direct Info -->
+          <div class="contact-info-panel">
+            <h3 class="info-title">Contact Information</h3>
+            <p class="info-desc">Feel free to drop a message, reach out via email, or connect with me on LinkedIn.</p>
+
+            <ul class="contact-details-list">
+              <li class="contact-detail-item">
+                <div class="detail-icon">📧</div>
+                <div>
+                  <span class="detail-label">Email</span>
+                  <a href="mailto:05mohammerahil@gmail.com" class="detail-value">05mohammerahil@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <div class="detail-icon">📱</div>
+                <div>
+                  <span class="detail-label">Phone</span>
+                  <a href="tel:+918217372497" class="detail-value">+91 8217372497</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <div class="detail-icon">💼</div>
+                <div>
+                  <span class="detail-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/Mohammed-Rahil" target="_blank" rel="noopener noreferrer" class="detail-value">linkedin.com/in/Mohammed-Rahil</a>
+                </div>
+              </li>
+              <li class="contact-detail-item">
+                <div class="detail-icon">🐙</div>
+                <div>
+                  <span class="detail-label">GitHub</span>
+                  <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="detail-value">github.com/Rahil500</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.');">
+            <div class="form-group">
+              <label for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="John Doe" required="">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Your Email</label>
+              <input type="email" id="contact-email" name="email" placeholder="john@example.com" required="">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" name="subject" placeholder="Project Inquiry / Job Opportunity" required="">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Write your message here..." required=""></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER SECTION PLACEHOLDER
+       Copyright notice, quick navigation links, and back-to-top trigger
+       ========================================================================== -->
+  <!-- ==========================================================================
+       FOOTER: Pixel art styled footer with social media icons, quick navigation,
+       and accessible aria-label attributes on all icon links.
+       Social icons have hover transitions consistent with the overall theme.
+       ========================================================================== -->
+  <footer class="site-footer pixel-footer" id="footer">
+    <div class="container footer-container">
+
+      <!-- Footer Top Row: Brand + Social Icons -->
+      <div class="footer-top-row">
+        <!-- Brand Logo -->
+        <div class="footer-brand">
+          <a href="http://127.0.0.1:5500/index.html#hero" class="logo" aria-label="Mohammed Rahil - Back to top">
+            <span class="logo-code">&lt;</span>Rahil<span class="logo-accent">.dev</span><span class="logo-code">/&gt;</span>
+          </a>
+          <p class="footer-tagline">Crafting modern, reliable, and performant software solutions — one commit at a time. ☕</p>
+        </div>
+
+        <!-- Social Media Icon Links -->
+        <!-- Each icon uses aria-label for accessibility and opens in a new tab where applicable -->
+        <nav class="footer-social-icons" aria-label="Social media and contact links">
+          <!-- GitHub: Links to source code repositories and open-source contributions -->
+          <a href="https://github.com/Rahil500" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Visit Mohammed Rahil's GitHub profile" title="GitHub — @Rahil500">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+            </svg>
+            <span class="social-label">GitHub</span>
+          </a>
+
+          <!-- LinkedIn: Professional network and career profile -->
+          <a href="https://linkedin.com/in/Mohammed-Rahil" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Connect with Mohammed Rahil on LinkedIn" title="LinkedIn — Mohammed Rahil">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+            </svg>
+            <span class="social-label">LinkedIn</span>
+          </a>
+
+          <!-- Email: Direct mailto link for quick contact -->
+          <a href="mailto:05mohammerahil@gmail.com" class="social-icon-btn" aria-label="Send email to Mohammed Rahil at 05mohammerahil@gmail.com" title="Email — 05mohammerahil@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span class="social-label">Email</span>
+          </a>
+
+          <!-- Phone: Direct tel: link for mobile users -->
+          <a href="tel:+918217372497" class="social-icon-btn" aria-label="Call Mohammed Rahil at +91 8217372497" title="Phone — +91 8217372497">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.97-.97a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17z"></path>
+            </svg>
+            <span class="social-label">Phone</span>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Footer Navigation Links -->
+      <nav class="footer-links" aria-label="Quick navigation links">
+        <a href="http://127.0.0.1:5500/index.html#hero">Home</a>
+        <a href="http://127.0.0.1:5500/index.html#about">About Me</a>
+        <a href="http://127.0.0.1:5500/index.html#skills">Skills</a>
+        <a href="http://127.0.0.1:5500/index.html#timeline">Timeline</a>
+        <a href="http://127.0.0.1:5500/index.html#projects">Projects</a>
+        <a href="http://127.0.0.1:5500/index.html#testimonials">Testimonials</a>
+        <a href="http://127.0.0.1:5500/index.html#chat">Chat</a>
+        <a href="http://127.0.0.1:5500/index.html#contact">Contact</a>
+      </nav>
+
+      <!-- Footer Bottom Bar: Copyright + Back to Top -->
+      <div class="footer-bottom">
+        <p class="copyright">
+          <span class="copyright-pixel" aria-hidden="true">[ </span>© <span id="current-year">2026</span> Mohammed Rahil.<span class="copyright-pixel" aria-hidden="true"> ]</span> All rights reserved.
+        </p>
+        <!-- Back to top button — smooth scrolls to hero section -->
+        <a href="http://127.0.0.1:5500/index.html#hero" class="back-to-top pixel-back-top" aria-label="Scroll back to the top of the page">
+          <span aria-hidden="true">▲</span> Back to Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript for Night Mode Toggle & Interactivity -->
+  <script src="./Mohammed Rahil _ Software Engineer &amp; Data Science Specialist_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
